@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:divider="?android:dividerHorizontal"
+    android:showDividers="middle"
+    android:orientation="vertical"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:background="#dcdcdc">
+
+    <TextView
+        android:id="@+id/tvContactUs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Contact us"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tvLogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Logout"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+</LinearLayout>

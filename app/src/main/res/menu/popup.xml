@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="alexzandros"
+        android:padding="10dp"
+        android:id="@+id/tvUserName"/>
+
+    <item
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Contact us"
+        android:padding="10dp"
+        android:id="@+id/tvContactUs"/>
+
+    <item
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Logout"
+        android:padding="10dp"
+        android:id="@+id/tvLogout"
+        android:layout_marginBottom="10dp"/>
+</menu>
